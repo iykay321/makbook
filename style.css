@@ -1,0 +1,550 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-list .logo {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.nav-list .icon {
+    width: 16px;
+    vertical-align: middle;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.headline {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.macbook-image {
+    width: 2000px;
+    margin: 20px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.highlights-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.actions a {
+    color: #0071e3;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.actions span {
+    margin-left: 5px;
+    transition: margin-left 0.2s ease-in-out;
+}
+
+.actions a:hover span {
+    margin-left: 10px;
+}
+
+.highlight-box {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 1800px;
+    height: 600px;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .actions {
+        margin-top: 15px;
+    }
+
+    .actions a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+
+.closer-look-section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 1500px;
+}
+
+.product-image img {
+    width: 1500px;
+    height: 800px;
+}
+
+.product-details {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.product-details p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.size-options {
+    margin-right: 20px;
+}
+
+.size-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f5f5f7;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+}
+
+.size-btn.active {
+    background-color: #0071e3;
+    color: #fff;
+    border-color: #0071e3;
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.color-option.black {
+    background-color: #000;
+}
+
+.color-option.silver {
+    background-color: #c0c0c0;
+}
+
+.color-option.active {
+    border-color: #0071e3;
+}
+
+@media (max-width: 768px) {
+    .product-details {
+        font-size: 0.9em;
+    }
+
+    .size-btn {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    .color-option {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.full-story-section {
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #bbb;
+}
+
+.description span {
+    color: #fff;
+}
+
+.chip-options {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chip-card {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.chip-card img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.chip-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    color: #00b8e6;
+}
+
+.chip-card li {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    h2,
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .chip-card {
+        max-width: 200px;
+    }
+
+    .chip-card ul {
+        font-size: 1em;
+    }
+}
+
+.Game-changing {
+    background-color: #000;
+}
+
+.text-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.line {
+    margin: 0;
+    text-align: left;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+    color: grey;
+}
+
+.highlight {
+    color: white;
+}
+
+.upto {
+    background-color: black;
+    margin-top: -20px;
+}
+
+.upto p {
+    color: grey;
+    font-size: 20px;
+    margin-left: -500px;
+}
+
+.upto h2 {
+    margin-left: 550px;
+    font-size: 80px;
+    color: white;
+}
+
+.hardware {
+    background-color: #000;
+    margin-top: -20px;
+}
+
+.hardware h1 {
+
+    font-size: 80px;
+    color: white;
+    margin-top: 300px;
+}
+
+.hardware p {
+    color: white;
+    margin-top: 100px;
+    margin-right: -230px;
+}
+
+.con {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat-block {
+    width: 45%;
+}
+
+.con h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.con p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.description {
+    margin-top: 20px;
+    color: #b0b0b0;
+}
+.WE{
+    margin-top: 30px;
+}
+.WE h1{
+    color: white;
+    font-size: 60PX;
+    margin-right: 150px;
+}
+.WE P{
+    margin-top: 70px;
+    margin-left:-10%;
+}
+.adobe p{
+    margin-top:-9.5px ;
+    margin-left: 1340px;
+}
+.hrs{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.hrs22 h1{
+    color: white;
+    font-size: 60PX;
+    margin-left: 500px;
+}
+.hrs22 p{
+    margin-left: 500px;
+
+}
+.hrs15 h1{
+    color: white;
+    font-size: 60PX;
+    margin-right: 500px;
+}
+.xcode p{
+    margin-top:-9.5px ;
+    margin-left: 800px;
+}
+.code{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code li {
+    margin: 0 15px;
+}
+
+.code a {
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+}
+.xcode h6{
+    color: #555;
+    font-size: 16px;
+}
+.tainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.macbook-options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.macbook {
+    width: 300px;
+    text-align: left;
+}
+
+.macbook img {
+    margin-right: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.model {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chip {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.color-options {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-right: 700px;
+}
+
+.support, .battery {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.Best{
+    background-color: white;
+}
+.best1{
+    display: flex;
+    justify-content: center;
+}
+.Best h1{
+    color: #000;
+    font-size: 70px;
+    margin-right: 400px;
+}
+.Best h4{
+    color: #000
+};
